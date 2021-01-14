@@ -7,16 +7,312 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
 </head>
-<body class="contain">
-    <header>
+<body class="container" id="home">
 
+
+    <header>
+        <nav class="navbar bg-white navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img  src="images/Logo, Icon/penguin-logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse me-5 justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link fw-bold active ps-5" href="#home">Home</a>
+                  <a class="nav-link fw-bold active ps-5" href="#product">Product</a>
+                  <a class="nav-link fw-bold active ps-5" href="#about">About us</a>
+                  <a class="nav-link fw-bold active ps-5" href="#contact">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
+
+    <!-- Header End -->
+
     <main>
-<section>
+<section class=" d-flex justify-content-between pt-5 ">
+<div class="row ">
+    <div class="col-md-6">
+        <h1>
+             <span class="text-success">BE THE PENGUINS</span> <br> OF WINTER
+        </h1>
+        <p class="w-75">Lorem, ipsum dolor sit amet consectetur adipisicing   elit. Pariatur quo ad asperiores saepe soluta reprehenderit.</p>
+        <button type="button" class=" button btn btn-success"> <img class="w-25" src="images/Logo, Icon/shopping-cart 1.png" alt=""> BUY NOW </button>
+        </div>
+        <!-- div end -->
+        <div class="col-md-6">
+        <img class="w-100  float-start" src="images/Image/green-profile.png" alt="">
+        </div>
+        
+</div>
 
 </section>
+
+<!-- INTRO Section End -->
+
+<Section class="pt-5" id="product">
+<h2>
+    WOMEN JACKET
+</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card d-block buy-card shadow-sm h-100 d-flex justify-content-center">
+        <div class="card-photo m-1">
+            <img src="images/Image/yellow-coat.png" class="card-img-top w-100 pb-5 pt-5 ps-5 pe-5" alt="...">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quis!</p>
+
+          <div class="buy d-flex justify-content-between">
+            <h2 class="d-inline price">$234</h2>
+          <button type="button" class=" button btn btn-success"> <img class="w-25" src="images/Logo, Icon/shopping-cart 1.png" alt=""> BUY NOW </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card buy-card shadow-sm h-100">
+          <div class="card-photo m-1 d-flex justify-content-center">
+            <img src="images/Image/light-yellow-coat.png" class="card-img-top  w-75 pb-5 pt-5 ps-5 pe-5 mb-4" alt="...">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nihil.</p>
+
+          <div class="buy d-flex justify-content-between">
+            <h2 class="d-inline price">$234</h2>
+          <button type="button" class=" button btn btn-success"> <img class="w-25" src="images/Logo, Icon/shopping-cart 1.png" alt=""> BUY NOW </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card buy-card shadow-sm h-100">
+        <div class="card-photo d-flex justify-content-center m-1">
+            <img src="images/Image/red-coat.png" class="card-img-top  w-100 pb-2 pt-3 ps-5 pe-5" alt="...">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, quas!</p>
+
+          <div class="buy d-flex justify-content-between">
+            <h2 class="d-inline price">$234</h2>
+          <button type="button" class=" button btn btn-success"> <img class="w-25" src="images/Logo, Icon/shopping-cart 1.png" alt=""> BUY NOW </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Section>
+
+<!-- Women Jacket End -->
+
+<Section class="pt-5">
+  <h2>
+      MAN JACKET
+  </h2>
+  
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card d-block buy-card shadow-sm h-100 d-flex justify-content-center">
+          <div class="card-photo m-1 d-flex justify-content-center">
+              <img src="images/Image/yellow-ash-jacket.png" class="card-img-top w-75 ps-4 pe-4 pt-3 pb-3 mt-4 mb-4" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quis!</p>
+  
+            <div class="buy d-flex justify-content-between">
+              <h2 class="d-inline price">$234</h2>
+            <button type="button" class=" button btn btn-success"> <img class="w-25" src="images/Logo, Icon/shopping-cart 1.png" alt=""> BUY NOW </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card buy-card shadow-sm h-100">
+            <div class="card-photo m-1 d-flex justify-content-center">
+              <img src="images/Image/choco-jacket.png" class="card-img-top w-100  ps-5 pe-5 pt-5 pb-5" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nihil.</p>
+  
+            <div class="buy d-flex justify-content-between">
+              <h2 class="d-inline price">$234</h2>
+            <button type="button" class=" button btn btn-success"> <img class="w-25" src="images/Logo, Icon/shopping-cart 1.png" alt=""> BUY NOW </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card buy-card shadow-sm h-100">
+          <div class="card-photo d-flex justify-content-center m-1">
+              <img src="images/Image/blue-jacket.png" class="card-img-top  w-75 ps-5 pe-5 pt-5 pb-5 mt-2 mb-3" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, quas!</p>
+  
+            <div class="buy d-flex justify-content-between">
+              <h2 class="d-inline price">$234</h2>
+            <button type="button" class=" button btn btn-success"> <img class="w-25" src="images/Logo, Icon/shopping-cart 1.png" alt=""> BUY NOW </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+<!-- Man Jacket End -->
+
+<Section class="pt-5 mt-5 pb-5" id="about">
+<div class="row ">
+  <div class="col-md-6 d-block">
+
+<div class="row about-card m-4 shadow-sm d-flex justify-content-center">
+  <div class=" col-md-2  d-flex justify-content-center icon-png">
+    <img src="images/Logo, Icon/shop-icon.png" alt="">
+  </div>
+<div class=" col-md-10 pt-3" >
+  <h5 class="fw-bold">Find the Perfect Fit</h5>
+<p class="w-75">Everybody is different, which is why we
+  offer styles for every body.</p>
+</div>
+</div>
+
+
+<div class="row about-card m-4 shadow-sm d-flex justify-content-center">
+  <div class=" col-md-2 icon-png d-flex justify-content-center">
+    <img src="images/Logo, Icon/pack-icon.png"   alt="">
+  </div>
+<div class=" col-md-10 pt-3 " >
+  <h5 class="fw-bold">Free Exchanges</h5>
+<p class="w-75">One of the many reasons you can shop
+  with peace of mind.</p>
+</div>
+</div>
+
+
+
+<div class="row about-card d-flex m-4 shadow-sm justify-content-center">
+  <div class=" col-md-2 icon-png d-flex justify-content-center">
+    <img src="images/Logo, Icon/shop-icon.png"  alt="">
+  </div>
+<div class=" col-md-10 pt-3" >
+  <h5 class="fw-bold">Contact Our Seller</h5>
+<p class="w-75">They are here to help you. That's quite
+  literally what we pay them for.</p>
+</div>
+</div>
+
+
+  </div>
+  <div class="col-md-6">
+<img src="images/Logo, Icon/big-poster.png"  class="d-block w-100" alt="">
+  </div>
+</div>
+</Section>
+
+<!-- Section End -->
+
+
+
+
+<!-- ----------------------------------------------------------Bonus Part------------------------------------------------------- -->
+
+<section class="pb-5 ">
+  <div class="pb-5 text-center">
+    <h1 class="text-warning">Contact Us</h1>
+  <h5>Have any questions? We'd love to hear from you.</h5>
+  </div>
+  <div class="row row-cols-1 row-cols-md-4 g-5 d-flex justify-content-center">
+    <div class="col">
+      <div class="card contact-card border-top border-primary border-5 shadow h-100">
+        <div class="card-body pe-5 ps-5">
+          <h3 class="card-title pt-5 ">Press</h3>
+          <p class="card-text pb-5 ">Are you interested in our latest news  and
+            need to get in touch?</p>
+        </div>
+        <div class="card-footer d-flex justify-content-center bg-white border-top-0 pt-5 pb-5">
+          <button type="button" class="btn btn-outline-primary rounded-pill ">
+            Visit Press Page
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card contact-card border-top border-info border-5 shadow h-100">
+        <div class="card-body  pe-4 ps-5 ">
+          <h3 class="card-title pt-5 ">Help & Support</h3>
+          <p class="card-text pb-5 ">Our support team is
+            spread across the globe to
+            give you answers fast.
+      </p>
+        </div>
+        <div class="card-footer d-flex justify-content-center bg-white border-top-0 pt-5 pb-5">
+          <button type="button" class="btn btn-info rounded-pill ">Visit Support Page</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card contact-card border-top border-primary border-5 shadow h-100">
+        <div class="card-body pe-5 ps-5 ">
+          <h3 class="card-title pt-5 ">Sales</h3>
+          <p class="card-text pb-5 ">Get in touch with our sales
+            team to see how we can
+            work together.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-center bg-white border-top-0 pt-5 pb-5 ">
+          <button type="button" class="btn btn-outline-primary rounded-pill ">Contact Sales</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="pt-5 pb-5" id="contact">
+ <div class="row rounded d-flex justify-content-center">
+   <div class="col-md-4 d-flex justify-content-center border-end border-success border-1 pb-5 pt-4 shadow ">
+     <span class="pe-3">
+<img src="images/Logo, Icon/partnership.png" alt="">
+     </span>
+     <span>
+      <h6 class="text-success">PARTNERSHIP REQUESTS:</h6>
+      <p>partners@penguin-fashion.com <br>
+        albi.ummid@gmail.com
+      </p>
+     </span>
+</div>
+   <div class="col-md-4 d-flex justify-content-center  border-start border-success border-1 shadow pt-4">
+    <span class="pe-3">
+<img src="images/Logo, Icon/mail.png" alt="">
+    </span>
+    <span>
+<h6 class="text-success"> MAILING ADDRESS:</h6>
+<p>Penguin-Fashion <br>
+548 Market Street, #35410 <br>
+San Francisco, CA 94104 </p>
+    </span>
+
+   </div>
+ </div>
+</section>
     </main>
+
+    <!-- Main End -->
+
     <footer class="text-center">
 <p>
     © Copyright Penguin-Fashion | Albi Tanvir. All Rights Reserved
