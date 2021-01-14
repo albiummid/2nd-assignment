@@ -16,7 +16,7 @@ h2{
     padding: 5px 0; */
 }
 
-/*  buy-section-1-css-start */
+/*  women-jacket-css-start */
 
 .card-photo{
     background-color:#F1F1F1;
@@ -30,6 +30,7 @@ h2{
     border-radius: 20px;
 }
 
+/* abous us - css start */
 .icon-png img{
     width: 78px;
     height: 82px;
@@ -43,3 +44,5 @@ h2{
     border-radius: 10px;
     border: none;
 }
+
+/* css End */
