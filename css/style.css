@@ -45,4 +45,6 @@ h2{
     border: none;
 }
 
-/* css End */
+.card-row{
+    float: left;
+}
